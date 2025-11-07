@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+} 
+
+
+#Container {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.Antrieb {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 10px;
+}
+
+.Holodeck {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 10px;
+}
+
+.Hitzeschild {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 10px;
+}
+
+.Transporter {
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+#switch-antrieb {
+    color: white;
+}
+
+#Container > div:hover {
+    border-color: red;
+}
+
+#Container > div:hover h2 {
+    color: red;
+}

@@ -1,0 +1,16 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(8, 65px);
+    grid-template-rows: repeat(8, 65px);
+}
+
+
+.black {
+    background-color: #f86a6a;
+    color: #f86a6a;
+}
+
+.white {
+    background-color: #f0d9b5;
+    color: #f0d9b5;
+}
